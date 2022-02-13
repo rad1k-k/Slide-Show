@@ -7,7 +7,7 @@ body {
 .slider {
     width: 700px;
     height: 400px;
-    overflow: hidden;
+    overflow: hidden;          
 }
 
 .slide img {
@@ -19,5 +19,25 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+    
+.navigation {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    display: flex;
+}
+
+.bar {
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.bar:hover {
+    background: #fff;
 }
