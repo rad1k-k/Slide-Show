@@ -41,3 +41,7 @@ body {
 .bar:hover {
     background: #fff;
 }
+
+input[name="r"] {
+    display: none;
+}
