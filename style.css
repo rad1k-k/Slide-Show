@@ -45,3 +45,13 @@ body {
 input[name="r"] {
     display: none;
 }
+
+.slides {
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 20%;
+}
